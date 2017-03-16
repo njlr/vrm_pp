@@ -1,0 +1,38 @@
+cxx_binary(
+  name = 'basic',
+  srcs = [
+    'basic/should_pass.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:vrm-pp',
+  ],
+)
+
+cxx_binary(
+  name = 'and',
+  srcs = [
+    'and.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:vrm-pp',
+  ],
+)
+
+cxx_binary(
+  name = 'repeat',
+  srcs = [
+    'repeat.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:vrm-pp',
+  ],
+)

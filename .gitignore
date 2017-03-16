@@ -197,3 +197,10 @@ asanlogs
 /.idea/SSVUtils.iml
 /.idea/vcs.xml
 /.idea/workspace.xml
+
+# Buck
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
